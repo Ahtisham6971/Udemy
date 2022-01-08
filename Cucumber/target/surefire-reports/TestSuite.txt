@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 29.645 s <<< FAILURE! - in TestSuite
+runScenario(cucumberOptions.TestNGTestRunner)  Time elapsed: 9.768 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+
+runScenario(cucumberOptions.TestNGTestRunner)  Time elapsed: 9.307 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+
+runScenario(cucumberOptions.TestNGTestRunner)  Time elapsed: 8.501 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+

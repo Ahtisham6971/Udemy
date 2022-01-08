@@ -1,0 +1,18 @@
+package Cucumber_Practice.Cucumber;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Base {
+
+	public static WebDriver driver;
+
+	public static WebDriver getDriver() {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\syed.ahtisham.ali\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
+		return driver;
+	}
+
+}

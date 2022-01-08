@@ -1,0 +1,6 @@
+Feature: Search and place order for vegetables
+
+Scenario: Search for items and validate results
+Given User is on GreenKart Landing page
+When User Searched for "Cucumber" vegetable
+Then "Cucumber" results are displayed
